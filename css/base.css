@@ -334,6 +334,7 @@
 	}
 
 	h3 .date {
+		display: block;
 		vertical-align:top;
 		color: #888;
 		padding-top: 2px;
@@ -350,6 +351,7 @@
 	}
 	h3 .date .duration {
 		box-shadow: none;
+		margin-left: 20px;
 	}
 	p {
 		color: #333;
