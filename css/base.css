@@ -489,7 +489,7 @@
 		clear: left;
 	}
 	.summary {
-		background-color: black;
+		background-color: #0084bf;
 		position: fixed;
 		top: 0;
 		bottom: 0;
@@ -538,7 +538,7 @@
 	}
 	.summary .toc .email {
 		margin-bottom: 0.4em;
-		color: #E8822E !important;
+		color: white !important;
 	}
 	.summary .toc .email .arobase {
 		color: #9d5921 !important;
@@ -546,7 +546,6 @@
 		padding-right: 0.1em;
 	}
 	.summary hr {
-		border-color: #333;
 		margin: 1.7em 10px;
 		margin-right: 20px;
 	}
