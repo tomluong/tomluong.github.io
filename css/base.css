@@ -342,7 +342,7 @@
 		margin-right: 0.3em;
 	}
 	h3 .date span {
-		background-color: #444;
+		background-color: #0084bf;
 		border-radius: 3px;
 		padding: 2px 0.5em;
 		padding-right: 0.3em;
@@ -350,7 +350,6 @@
 		box-shadow: 1px 1px 6px #ddd;
 	}
 	h3 .date .duration {
-		color: #aaa;
 		box-shadow: none;
 	}
 	p {
