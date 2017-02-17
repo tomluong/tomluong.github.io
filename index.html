@@ -21,7 +21,6 @@
     <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-    <link rel="shortcut icon" href="images/favicon.ico">
 
     <!--[if (IE)]><!-->
     <script src="js/respond.min.js"></script>
@@ -29,22 +28,18 @@
 </head>
 
 <body>
-
-
     <div class="container">
         <div class="row">
             <div class="two-thirds column myname">
                 <h1 class="remove-bottom">Tom Luong</h1>
                 <div class="subheader"><span class="nowrap">Senior Software Developer</span>
                 </div>
-                8 Years of Experience Since 2009
+                <span id="years-of-experience"></span> Years of Experience Since 2009
 
 
             </div>
             <div class="one-third column infos">
-                <p><a href="mailto:tomluong@live.com">tomluong@live.com</a>
-                </p>
-                <a href="https://linkedin.com/in/tomqluong" target="_blank">LinkedIn</a> | <a href="https://github.com/tomluong" target="_blank">GitHub</a>
+                <a href="mailto:tomluong@live.com">tomluong@live.com</a> | <a href="https://linkedin.com/in/tomqluong" target="_blank">LinkedIn</a> | <a href="https://github.com/tomluong" target="_blank">GitHub</a>
             </div>
         </div>
 
@@ -173,6 +168,11 @@
             </div>
         </div>
     </div>
+    
+    <script>
+    var dom_years = document.getElementById("years-of-experience");
+        dom_years.innerHtml = new Date().getFullYear() - 2009;
+    </script>
 </body>
 
 </html>
