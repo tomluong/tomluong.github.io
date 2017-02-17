@@ -82,7 +82,7 @@
 		font-size: 13px;
 	}
 	h2 {
-		color: #0084bf;
+		color: #0f5ca3;
 		text-shadow: 0 1px 4px #ccc;
 		font-size: 16px;
 	}
@@ -342,7 +342,7 @@
 		margin-right: 0.3em;
 	}
 	h3 .date span {
-		background-color: #0084bf;
+		background-color: #0f5ca3;
 		border-radius: 3px;
 		padding: 2px 0.5em;
 		padding-right: 0.3em;
@@ -364,7 +364,7 @@
 		text-decoration: none;
 		padding: 1px 0.3em;
 		border-radius: 2px;
-		color: #0084bf;
+		color: #0f5ca3;
 	}
 	h2 a {
 		color: white;
@@ -484,7 +484,7 @@
 		clear: left;
 	}
 	.summary {
-		background-color: #0084bf;
+		background-color: #0f5ca3;
 		position: fixed;
 		top: 0;
 		bottom: 0;
