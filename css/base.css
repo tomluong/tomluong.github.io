@@ -763,3 +763,11 @@ h4 {
 .text-bold {
 	font-weight: 700;
 }
+
+.hire-now {
+	padding: 4px;
+	border: 1px solid;
+	border-radius: 4px;
+	margin: 0 10px;
+		
+}
