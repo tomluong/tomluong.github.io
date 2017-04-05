@@ -758,3 +758,8 @@ h4 {
 .subheader {
 	padding-bottom: 0.3em;
 }
+
+
+.text-bold {
+	font-weight: 700;
+}
