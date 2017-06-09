@@ -771,3 +771,9 @@ h4 {
 	margin: 0 10px;
 		
 }
+
+.senority {
+	display: block;
+	font-size: 12pt;
+	color: #999;
+}
