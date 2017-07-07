@@ -787,6 +787,6 @@ h4 {
 	
 }
 
-.row.experience h3:not(:first-child) {
+.row .two-thirds h3:not(:first-child) {
 	margin-top: 3em;	
 }
