@@ -771,6 +771,16 @@ h4 {
 		
 }
 
-.job-title {
+.job {
 	display: block;
+	font-weight: bold;
 }	
+
+.job .job-company {	
+	margin: 0 2px;
+	border-right: 2px solid #999;
+}
+
+.job .job-title {
+	margin: 0 2px;
+}
