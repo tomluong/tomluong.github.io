@@ -790,3 +790,4 @@ h4 {
 .row .two-thirds h3:not(:first-child) {
 	margin-top: 3em;	
 }
+.one-third.column h2 { line-height: 0; }
