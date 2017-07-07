@@ -777,12 +777,12 @@ h4 {
 }	
 
 .job .job-company {	
-	padding-right: 4px;
+	padding-right: 6px;
 	border-right: 4px solid #999;
 }
 
 .job .job-title {
-	padding-left: 4px;
+	padding-left: 6px;
 	color: #999;
 	
 }
