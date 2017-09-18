@@ -1,0 +1,57 @@
+
+.subheader {
+	padding-bottom: 0.3em;
+}
+
+
+.text-bold {
+	font-weight: 700;
+}
+
+.hire-now {
+	padding: 4px;
+	border: 1px solid;
+	border-radius: 4px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.job {
+	display: block;
+	font-weight: bold;
+}	
+
+.job .job-company {	
+	padding-right: 6px;
+	border-right: 4px solid #999;
+}
+
+.job .job-title {
+	padding-left: 6px;
+	color: #999;
+	
+}
+
+.row .two-thirds h3:not(:first-child) {
+	margin-top: 3em;	
+}
+/* .one-third.column h2 { line-height: 0; } */
+
+a.more-details {
+    font-size: small;
+    font-style: italic;
+    color: #666;
+}
+
+div.separator {
+    height:10px;
+    display: block;
+}
+
+.details-auto-hide {
+    display: none;
+}
+
+ul.accomplishments {
+    list-style: outside;
+}
