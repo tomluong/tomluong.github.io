@@ -1,8 +1,11 @@
+h4 {
+	color: #0f5ca3;
+	font-weight: 400;
+}
 
 .subheader {
 	padding-bottom: 0.3em;
 }
-
 
 .text-bold {
 	font-weight: 700;
@@ -18,18 +21,21 @@
 
 .job {
 	display: block;
-	font-weight: bold;
+	font-weight: 600;
 }	
+
+.job .job-company:before {	
+	content: 'at ';
+	font-size: 18px;
+}
 
 .job .job-company {	
 	padding-right: 6px;
-	border-right: 4px solid #999;
 }
 
 .job .job-title {
-	padding-left: 6px;
-	color: #999;
-	
+	display: block;
+	color: #999;	
 }
 
 .row .two-thirds h3:not(:first-child) {
@@ -40,7 +46,8 @@
 a.more-details {
     font-size: small;
     font-style: italic;
-    color: #666;
+	color: #666;
+	display: block;
 }
 
 div.separator {
@@ -52,6 +59,19 @@ div.separator {
     display: none;
 }
 
+.details-technical {
+	padding: 8px;
+	border: 1px dashed #666;
+	border-radius: 6px;
+}
+
 ul.accomplishments {
     list-style: outside;
+}
+
+.label-corner {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 12px;
+	float: right;
 }
