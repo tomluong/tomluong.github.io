@@ -80,3 +80,11 @@ ul.accomplishments {
 {
 	background-color:#CC3341;
 }
+
+ul.quick-highlights {
+	list-style: outside;
+}
+
+ul.quick-highlights li {
+	margin-bottom: 0;
+}
