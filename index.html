@@ -213,11 +213,11 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript">
-        $("div[section='experience']>h3").append('<a class="more-details" href="#">Show Technical</a>');
         document.getElementById("years-of-experience").innerText = new Date().getFullYear() - 2009;
+        $("div[section='experience']>h3").append('<a class="more-details" href="#">Show Technical</a>');
         $(".more-details").click(function () {
             $(".details-auto-hide").removeClass("details-auto-hide").addClass("details-technical").prepend('<span class="label-corner">Technical</span>');
-            $(this).hide();
+            $(".more-details").hide();
         });
     </script>
 </body>
