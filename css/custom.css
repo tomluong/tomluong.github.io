@@ -75,3 +75,8 @@ ul.accomplishments {
 	font-size: 12px;
 	float: right;
 }
+
+[section='experience'] h3 .date.current span
+{
+	background-color:#CC3341;
+}
