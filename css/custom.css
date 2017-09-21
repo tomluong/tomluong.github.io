@@ -88,3 +88,11 @@ ul.quick-highlights {
 ul.quick-highlights li {
 	margin-bottom: 0;
 }
+
+.industry {
+	font-size: 11px;
+	border-radius: 6px;
+	color: #fff;
+	padding: 6px;
+	background-color: #04AA6B
+}
