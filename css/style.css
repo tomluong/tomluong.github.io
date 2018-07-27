@@ -295,7 +295,11 @@ figure {
           background-color: #fff;
           padding: 20px 40px;
           width: 500px;
-          opacity: 0.6; }
+          opacity: 0.8; }
+          @media screen and (max-width: 768px) {
+            #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {
+              padding: 5px 20px;
+              width: 400px; } }
         @media screen and (max-width: 768px) {
           #colorlib-hero .flexslider .slider-text > .slider-text-inner {
             text-align: center; } }
