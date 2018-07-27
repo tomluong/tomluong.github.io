@@ -1,244 +1,476 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en">
-<!--<![endif]-->
+<!DOCTYPE HTML>
+<html>
 
 <head>
     <meta charset="utf-8">
-    <title>Tom Luong- .NET MVC Core Angular AWS</title>
-    <meta name="description" content="Senior Software Developer. .NET MVC Core Angular AWS nginx" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tom Luong</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Senior Software Developer" />
+    <meta name="keywords" content="" />
     <meta name="author" content="Tom Luong" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!-- CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/skeleton.css" />
-    <link rel="stylesheet" href="css/layout.css" />
-    <link rel="stylesheet" href="css/base.css" />
-    <link rel="stylesheet" href="css/custom.css" />
-    <!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 
-    <!--[if (IE)]><!-->
-    <script src="js/respond.min.js"></script>
-    <!--<![endif]-->
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Flexslider  -->
+    <link rel="stylesheet" href="css/flexslider.css">
+    <!-- Flaticons  -->
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Theme style  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="two-thirds column myname">
-                <h1 class="remove-bottom">Tom Luong</h1>
-                <ul class="quick-highlights">
-                    <li>Senior Developer from Toronto</li>
-                    <li><span id="years-of-experience"></span> years of experience</li>
-                    <li>Current industry: FinTech</li>
-                    <li>Previous industries: Education and Entertainment Media</li>
-                </ul>
-            </div>
+    <div id="colorlib-page">
+        <div class="container-wrap">
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+            <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+                <div class="text-center">
+                    <div class="author-img" style="background-image: url(images/about.jpg);"></div>
+                    <h1 id="colorlib-logo"><a href="index.html">Tom Luong</a></h1>
+                    <span class="position"><a href="#">Software Developer</a> in Canada</span>
+                </div>
+                <nav id="colorlib-main-menu" role="navigation" class="navbar">
+                    <div id="navbar" class="collapse">
+                        <ul>
+                            <li class="active"><a href="#" data-nav-section="home">Home</a></li>
+                            <li><a href="#" data-nav-section="about">About</a></li>
+                            <li><a href="#" data-nav-section="services">Services</a></li>
+                            <li><a href="#" data-nav-section="skills">Skills</a></li>
+                            <li><a href="#" data-nav-section="education">Education</a></li>
+                            <li><a href="#" data-nav-section="experience">Experience</a></li>
+                            <li><a href="#" data-nav-section="contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
 
-            <div class="one-third column infos">
-                <a href="https://linkedin.com/in/tomqluong" target="_blank">LinkedIn</a> | <a href="https://github.com/tomluong"
-                    target="_blank">GitHub</a> | <a href="https://twitter.com/nonaclotho" target="_blank">Twitter</a>
-                <br/>
-                <a href="mailto:tomluong@live.com?Subject=New%20Exciting%20Opportunity" class="text-bold hire-now">Hire Tom Now</a>
+            </aside>
+
+            <div id="colorlib-main">
+                <section id="colorlib-hero" class="js-fullheight" data-section="home">
+                    <div class="flexslider js-fullheight">
+                        <ul class="slides">
+                            <li style="background-image: url(images/img_bg_1.jpg);filter: grayscale(100%);">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner js-fullheight">
+                                                <div class="desc">
+                                                    <h1>Hi! <br>I'm Tom.</h1>
+                                                    <p><a class="btn btn-primary btn-learn">Download Resume <i class="icon-download4"></i></a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li style="background-image: url(images/img_bg_2.jpg);filter: grayscale(100%);">
+                                <div class="overlay"></div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+                                            <div class="slider-text-inner">
+                                                <div class="desc">
+                                                    <h1>I build <br>software.</h1>
+                                                    <h2>8 years building a lot of them.</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="colorlib-about" data-section="about">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="col-md-12">
+                                        <div class="about-desc">
+                                            <span class="heading-meta">About Me</span>
+                                            <h2 class="colorlib-heading">Who Am I?</h2>
+                                            <p><strong>Hi I'm Tom Luong.</strong> I have been getting my hand dirty with code since high school and have been a full stack developer since my second undergraduate year. Don't let my official titles fool you.
+                                                I can do every thing, one way or another. If I don't know how to do it, I will learn.</p>
+                                            <p>Right now I am working at <a href="https://www.q4inc.com" target="_blank">Q4 Inc.</a> to build the fastest products serving the biggest number of users with the smallest expenses. One release at a time.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="services color-1">
+                                            <span class="icon2"><i class="icon-bulb"></i></span>
+                                            <h3>Fastest Applications</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
+                                        <div class="services color-2">
+                                            <span class="icon2"><i class="icon-globe-outline"></i></span>
+                                            <h3>Biggest number of users</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
+                                        <div class="services color-3">
+                                            <span class="icon2"><i class="icon-data"></i></span>
+                                            <h3>Smallest Expenses</h3>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
+                                        <div class="services color-4">
+                                            <span class="icon2"><i class="icon-phone3"></i></span>
+                                            <h3>Also enjoy doing it.</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="hire">
+                                            <h2>If you are still here reading,<br>that mean we need to talk ASAP!</h2>
+                                            <a href="#" class="btn-hire">Hire me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-services" data-section="services">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">What I do?</span>
+                                <h2 class="colorlib-heading">Here are some of my previous projects</h2>
+                            </div>
+                        </div>
+                        <div class="row row-pt-md">
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-1 big-height">
+                                    <span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+                                    <div class="desc">
+                                        <h3>Strategic Caching Architecture</h3>
+                                        <p>Responses are cached every steps of the way from reverse proxy to NoSQL couchbase. We cache as much as we can. As long as we can.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-2 big-height">
+                                    <span class="icon">
+									<i class="icon-data"></i>
+								</span>
+                                    <div class="desc">
+                                        <h3>High Availability FTP Servers</h3>
+                                        <p>Did I mention it's on the cloud running 24/7? It never dies. N_E_V_E_R! Or so far.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-3 big-height">
+                                    <span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+                                    <div class="desc">
+                                        <h3>Security</h3>
+                                        <p>Do XSS and CSRF ring any bells to you? We handle confidential data for Fortune 100 companies. We take their security very seriously. Like the way they want it!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-4 big-height">
+                                    <span class="icon">
+									<i class="icon-layers2"></i>
+								</span>
+                                    <div class="desc">
+                                        <h3>Rebranding and Rewiring</h3>
+                                        <p>Every old application needs a facelift with a set of new skills. Yeah, legacy code. We marry cutting edge frameworks with experience applications.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-5 big-height">
+                                    <span class="icon">
+									<i class="icon-times"></i>
+								</span>
+                                    <div class="desc">
+                                        <h3>Hackathons</h3>
+                                        <p>I'm hacking over here! It's not a real project but it's surely the most anticipated one. Three times winner. You got the point. I'm fun.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center animate-box">
+                                <div class="services color-6 big-height">
+                                    <span class="icon">
+									<i class="icon-speech-bubble"></i>
+								</span>
+                                    <div class="desc">
+                                        <h3>One more thing</h3>
+                                        <p>Ask me about in person. You won't regret it. I promise.<br/><a href="mailto:tomluong@live.com">Give me a shout now!</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-skills" data-section="skills">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">My Specialty</span>
+                                <h2 class="colorlib-heading animate-box">My Skills</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                <blockquote>We are what we repeatedly do. Excellence, then, is not an act, but a habit.</blockquote>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3>ASP.NET | C# | SQL</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                            <span>90%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3>Angular | TypeScript | jQuery</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-2" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                            <span>95%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3>HTML5 | SASS</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-3" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                            <span>75%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3>CI | CD</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                            <span>90%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                <div class="progress-wrap">
+                                    <h3>Communication</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-5" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width:99%">
+                                            <span>99%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+                                <div class="progress-wrap">
+                                    <h3>Team Player</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar color-6" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:100%">
+                                            <span>100%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="colorlib-education" data-section="education">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Education</span>
+                                <h2 class="colorlib-heading animate-box">Education</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+                                <h4>McMaster University, 2005 - 2009</h4>
+                                <p>Honours Bachelor's Degree of Science
+                                    <br> Major in Computer Science and Mathematics
+                                </p>
+                            </div>
+                        </div>
+                </section>
+
+                <section class="colorlib-experience" data-section="experience">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Experience</span>
+                                <h2 class="colorlib-heading animate-box">Work Experience</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="timeline-centered">
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+
+                                            <div class="timeline-icon color-1">
+                                                <i class="icon-pen2"></i>
+                                            </div>
+
+                                            <div class="timeline-label">
+                                                <h2><a href="#">Senior Developer at Q4 Inc.</a> <span>6/2016-now</span></h2>
+                                                <p>
+                                                    <ul>
+                                                        <li>Cut infrastructure expenses and increased sale margin for the company by shipping leaner, faster and more reliable releases every month. Boosted runtime performance and reduced server load by strategic
+                                                            caching architecture and serverless development</li>
+                                                        <li>Provided technical consultation, proofs of concept to management and product owner to make well-informed decisions moving forward</li>
+                                                        <li>Periodically presented technical solutions to new challenging problems to team members and stakeholders. Ensured high standard code in each releases through critical code reviews</li>
+                                                        <li>Conducted on-site interviews with prospective developers and provided guidance to new hires. Transferred strong and deep product development knowledge so that they can start contributing on their
+                                                            own as soon as possible</li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+
+
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-2">
+                                                <i class="icon-pen2"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2><a href="#">Senior Software Developer at Yangaroo</a> <span>2/2014-5/2016</span></h2>
+                                                <p>
+                                                    <ul>
+                                                        <li>Increase revenue and client base by enabling true UI locallization, allowing the product to reach outside US and Canada</li>
+                                                        <li>Implemented onion architecture and hybrid database tables to increase code reusuability and design flexibility</li>
+                                                    </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </article>
+
+                                    <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                        <div class="timeline-entry-inner">
+                                            <div class="timeline-icon color-3">
+                                                <i class="icon-pen2"></i>
+                                            </div>
+                                            <div class="timeline-label">
+                                                <h2><a href="#">Software Developer at Pearson Canada</a> <span>7/2009-10/2013</span></h2>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="colorlib-contact" data-section="contact">
+                    <div class="colorlib-narrow-content">
+                        <div class="row">
+                            <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+                                <span class="heading-meta">Get in Touch</span>
+                                <h2 class="colorlib-heading">Contact</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="colorlib-icon">
+                                        <i class="icon-globe-outline"></i>
+                                    </div>
+                                    <div class="colorlib-text">
+                                        <p><a href="mailto:tomluong@live.com">tomluong@live.com</a></p>
+                                    </div>
+                                </div>
+
+                                <div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+                                    <div class="colorlib-icon">
+                                        <i class="icon-map"></i>
+                                    </div>
+                                    <div class="colorlib-text">
+                                        <p>Toronto, Ontario, Canada</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                </div>
+                <!-- end:colorlib-main -->
             </div>
+            <!-- end:container-wrap -->
         </div>
+        <!-- end:colorlib-page -->
 
-        <div class="row">
-            <div class="one-third column">
-                <h2 id="experience">Experience</h2>
-                <div class="separator"></div>
+        <!-- jQuery -->
+        <script src="js/jquery.min.js"></script>
+        <!-- jQuery Easing -->
+        <script src="js/jquery.easing.1.3.js"></script>
+        <!-- Bootstrap -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Waypoints -->
+        <script src="js/jquery.waypoints.min.js"></script>
+        <!-- Flexslider -->
+        <script src="js/jquery.flexslider-min.js"></script>
+        <!-- Owl carousel -->
+        <script src="js/owl.carousel.min.js"></script>
+        <!-- Counters -->
+        <script src="js/jquery.countTo.js"></script>
 
-            </div>
-            <div class="two-thirds column" section="experience">
-                <h3>
-                    <div class="job">
-                        <span class="job-title">Senior Developer</span>
-                        <span class="job-company">Q4</span>
-                        <span class="industry">FinTech</span>
-                    </div>
 
-                    <span class="date current"><span>Jun 2016<span class="duration">Now</span></span>
-                    </span>
-                </h3>
-                <div class="details-auto-hide">
-                    <h4>Primary Stack</h4>
-                    <p>
-                        ASP .NET (Core | MVC | Web API | Web Forms | IdentityServer 4), AWS (Lambda | S3 | EC2), nginx, Windows services, Serverless,
-                        Angular 4/2/1.x, TeamCity + Octopus, Autofac, Entity Framework, MongoDB, Couchbase
-                    </p>
-                </div>
-                <h4>Accomplishments</h4>
-                <ul class="accomplishments">
-                    <li>Extensively custom fit ASP.NET WebForms to significantly cut monthly operating cost, reduce response
-                        time to sub-100ms and enhance overall security to prevent DDoS attacks</li>
-                    <li>Implemented Continuous Integration on Cloud with TeamCity and Amazon AWS to save cost and improve speed</li>
-                    <li>Designed and implemented high availability FTP servers with FileZilla and Amazon AWS services</li>
-                    <li>Fixed bugs, added new features and improves stability to Q4 flagship products</li>
-                    <li>Mentored new hires for the team to transfer knowledge and best practices</li>
-                    <li>
-                        Two-times Hackathon winner! First and second places.
-                    </li>
-                </ul>
+        <!-- MAIN JS -->
+        <script src="js/main.js"></script>
 
-                <div class="details-auto-hide">
-                    <h4>Awards</h4>
-                    <ul>
-                        <li>
-                            2017 - 2<sup>nd</sup> place at Q4's 2<sup>nd</sup> Hackathon
-                            <ul>
-                                <li>Theme: Alternative Interfaces</li>
-                                <li>Technologies and tools: Nodejs, AWS Lambda, Amazon Alexa, serverless, Q4 Desktop</li>
-                            </ul>
-                        </li>
-
-                        <li>
-                            2016 - 1<sup>st</sup> place at Q4's 1<sup>st</sup> Hackathon
-                            <ul>
-                                <li>Theme: Free Style</li>
-                                <li>Technologies and tools: ASP.NET Web API, TeamCity, Octopus, Q4 internal services</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <h4>About The Company</h4>
-                <p>
-                    <a href="https://www.q4inc.com/" target="_blank">Q4</a> is a Software as a service (SaaS) platform that
-                    provides communication and intelligence solutions to Investor Relations Officers and the C-Suite of public
-                    companies.
-                </p>
-
-                <h3>
-                    <div class="job">
-                        <span class="job-title">Founder</span>
-                        <span class="job-company">RSTU</span>
-                    </div>
-                    <span class="date current"><span>Aug 2017<span class="duration">Now</span></span>
-                    </span>
-                </h3>
-
-                <p>Private projects</p>
-
-                <h3>
-                    <div class="job">
-                        <span class="job-title">Senior Developer</span>
-                        <span class="job-company">Yangaroo</span>
-                        <span class="industry">Entertainment Media</span>
-                    </div>
-                    <span class="date"><span>Feb 2014<span class="duration">May 2016</span></span>
-                    </span>
-                </h3>
-                <div class="details-auto-hide">
-                    <h4>Primary Stack</h4>
-                    <p>ASP.NET MVC, SQL, Powershell, MongoDB, Angular, Kendo UI, Autofac</p>
-                </div>
-                <h4>Accomplishments</h4>
-                <ul class="accomplishments">
-                    <li>Owned the Awards platform and customized it to meet each and every awards' requirements. Features included
-                        2-factor authentication, complex category management and nominating process</li>
-                    <li>Presented technical talks to all interested employees</li>
-                    <li>Audited and mentored new hires</li>
-                </ul>
-                <h4>About The Company</h4>
-                <p><a href="http://www.yangaroo.com" target="_blank">Yangaroo</a> is a company dedicated to digital media management.</p>
-
-                <h3>
-                    <div class="job">
-                        <span class="job-title">Intermediate Developer</span>
-                        <span class="job-company">Pearson Canada</span>
-                        <span class="industry">Education</span>
-                    </div>
-                    <span class="date"><span>Nov 2010<span class="duration">Oct 2013</span></span>
-                    </span>
-                </h3>
-                <div class="details-auto-hide">
-                    <h4>Primary Stack</h4>
-                    <p>ASP.NET, SQL, JavaScript, Telerik Web, Jaspersoft Reports</p>
-                </div>
-                <h4>Accomplishments</h4>
-                <ul class="accomplishments">
-                    <li>Designed and implemented all school reports (for example: course schedules, student grades, etc.) in
-                        both English and Arabic</li>
-                    <li>Fixed bugs and implemented new features in many releases</li>
-                </ul>
-
-                <h4>Awards</h4>
-                <ul>
-                    <li>2011: Exceptional contribution to the success of the Class Scheduler project</li>
-                    <li>2010: Valuable contribution to eSIS</li>
-                </ul>
-
-                <h4>About The Company</h4>
-                <p>Pearson Canada provide innovative learning materials, technologies, assessments, and services to educators,
-                    professionals, and students.</p>
-                <h3>
-                    <div class="job">
-                        <span class="job-title">Junior Developer</span>
-                        <span class="job-company">AAL</span>
-                        <span class="industry">Education</span>
-                    </div>
-                    <span class="date"><span>Jul 2009<span class="duration">Oct 2010</span></span>
-                    </span>
-                </h3>
-                <div class="details-auto-hide">
-                    <h4>Primary Stack</h4>
-                    <p>ASP.NET, JavaScript, Telerik Web</p>
-                </div>
-
-                <h4>Accomplishments</h4>
-                <ul class="accomplishments">
-                    <li>Migrated many existing features in Orable FORMS to ASP.NET WebForms</li>
-                </ul>
-                <h4>About The Company</h4>
-                <p>AAL, a school system company, is no longer in business. It was acquired by Pearson Canada in 2010.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="one-third column">
-                <h2>Education
-                    <a id="education" href="#education"></a>
-                </h2>
-            </div>
-            <div class="two-thirds column">
-                <h3>
-                    <div class="job">
-                        <span class="job-title">Honours B.Sc.</span>
-                        <span class="job-company">McMaster University</span>
-                    </div>
-                    <span class="date"><span>Sep 2005<span class="duration">Jun 2009</span></span>
-                </h3>
-                <h4>Major</h4>
-                <p>Computer Science and Mathematics</p>
-            </div>
-        </div>
-
-        <div class="summary">
-            <p>Tom Luong
-            </p>
-            <div class="toc">
-                <a href="#experience">Experience</a>
-                <a href="#education">Education</a>
-                <hr>
-                <a href="https://linkedin.com/in/tomqluong" target="_blank">LinkedIn</a>
-                <a href="https://github.com/tomluong" target="_blank">GitHub</a>
-                <a href="https://twitter.com/nonaclotho" target="_blank">Twitter</a>
-                <a href="mailto:tomluong@live.com?Subject=New%20Exciting%20Opportunity" class="text-bold">Hire Tom Now</a>
-            </div>
-        </div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        document.getElementById("years-of-experience").innerText = new Date().getFullYear() - 2009;
-        $("div[section='experience']>h3").append('<a class="more-details" href="#">Show Technical</a>');
-        $(".more-details").click(function () {
-            $(".details-auto-hide").removeClass("details-auto-hide").addClass("details-technical").prepend('<span class="label-corner">Technical</span>');
-            $(".more-details").hide();
-        });
-    </script>
 </body>
 
 </html>
