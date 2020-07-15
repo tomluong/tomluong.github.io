@@ -1,0 +1,56 @@
+.container.main {
+    width: 680px;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 1.15rem;
+}
+
+li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+li:before {
+    content: "\2605";
+    margin-left: -23px;
+    padding-right: 10px;
+}
+
+.main>div {
+    margin-bottom: 20px;
+}
+
+.main .header .full-name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+.main .header .highlight {
+    text-transform: uppercase;
+}
+
+.main .header svg {
+    margin: 0 2px;
+}
+
+.main .qualifications {
+    padding-left: 20px;
+
+}
+
+.qualifications ul {
+    list-style-position: outside;
+    padding: 0px;
+}
+
+
+.section-header {
+    text-transform: capitalize;
+    border-left: 10px solid #111;
+    padding-left: 10px;
+    margin-left: -20px;
+    font-size: 14pt;
+}
