@@ -1,12 +1,15 @@
 .container.main {
-    width: 680px;
+    width: 640px;
     padding: 50px 0;
     font-family: 'Roboto', sans-serif;
     font-size: 10pt;
     text-align: justify;
     line-height: 1.15rem;
+    font-weight: 400;
 }
-
+ul {
+    margin-bottom: 0;
+}
 li {
     list-style: none;
     margin-bottom: 5px;
@@ -32,8 +35,8 @@ li:before {
     text-transform: uppercase;
 }
 
-.main .header svg {
-    margin: 0 2px;
+.main .header img {
+    width: 12px;
 }
 
 .main .qualifications {
@@ -53,4 +56,47 @@ li:before {
     padding-left: 10px;
     margin-left: -20px;
     font-size: 14pt;
+    margin-bottom: 10px;
+}
+.job {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.job-header {
+    margin-bottom: 10px;;
+}
+.job-title, .job-projects,
+.education-institution, .education-degree {
+    font-weight: 700;
+}
+
+.job-company, .job-tech, .job-duration,
+.education-major, .education-graduation {
+    font-size: 8pt;
+}
+
+.job-details ul {
+    list-style-position: outside;
+    margin-left: -10px;
+}
+
+.job-details.statement {
+    padding-left: 20px;
+}
+
+.recent-projects ul {
+    list-style-position: outside;
+    margin-left: 10px;
+}
+
+.education .education-header{
+    margin-left: 20px;
+}
+
+.footer {
+    font-size: 8pt;
+}
+
+.quote {
+    font-style: italic;
 }
