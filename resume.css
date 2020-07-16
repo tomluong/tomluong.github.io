@@ -1,0 +1,114 @@
+.container.main {
+    width: 640px;
+    padding: 50px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 1.15rem;
+    font-weight: 400;
+}
+
+ul {
+    margin-bottom: 0;
+}
+li {
+    list-style: none;
+    margin-bottom: 4px;
+}
+
+li:before {
+    content: "\2605";
+    margin-left: -23px;
+    padding-right: 10px;
+}
+
+.main>div {
+    margin-bottom: 10px;
+}
+
+.main .header .full-name {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+.main .header .highlight {
+    text-transform: uppercase;
+}
+
+.main .header img {
+    width: 12px;
+}
+
+.main .qualifications {
+    padding-left: 20px;
+}
+
+.qualifications ul {
+    list-style-position: outside;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.section-header {
+    text-transform: capitalize;
+    border-left: 10px solid #111;
+    padding-left: 10px;
+    margin-left: -20px;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+.job {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.job-header {
+    margin-bottom: 10px;;
+}
+.job-title, .job-projects,
+.education-institution, .education-degree {
+    font-weight: 700;
+}
+
+.job-company, .job-tech, .job-duration,
+.education-major, .education-graduation {
+    font-size: 8pt;
+}
+
+.job-details ul {
+    list-style-position: outside;
+    margin-left: -10px;
+}
+
+.job-details.statement {
+    padding-left: 20px;
+}
+
+.recent-projects ul {
+    list-style-position: outside;
+    margin-left: 10px;
+}
+
+.education .education-header{
+    margin-left: 20px;
+}
+
+.footer {
+    font-size: 8pt;
+}
+
+.quote {
+    font-style: italic;
+}
+
+
+@media print {
+    .btn {
+        display: none;
+    }
+
+    .container.main {
+        line-height: 1.1rem;
+        padding: 25px 0;
+    }
+}
