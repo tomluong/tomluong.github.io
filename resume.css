@@ -1,11 +1,15 @@
-.container.main {
-    width: 640px;
-    padding: 50px 0;
+html,  body {
     font-family: 'Roboto', sans-serif;
     font-size: 10pt;
     text-align: justify;
     line-height: 1.15rem;
     font-weight: 400;
+    color: rgb(29, 29, 31);
+    background-color: #fff;
+}
+.container.main {
+    width: 640px;
+    padding: 10px 0;
 }
 
 ul {
@@ -24,6 +28,16 @@ li:before {
 
 .main>div {
     margin-bottom: 10px;
+}
+.header .left {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.header .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .main .header .full-name {
@@ -106,9 +120,11 @@ li:before {
     .btn {
         display: none;
     }
-
-    .container.main {
-        line-height: 1.1rem;
-        padding: 25px 0;
-    }
 }
+
+
+@media (max-width: 767.98px) { 
+    .header .right {
+        align-items: flex-start;
+    }
+ }
