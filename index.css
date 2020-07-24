@@ -1,0 +1,67 @@
+body {
+    font-family: 'Special Elite', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: calc(10px + 0.33vw);
+    -webkit-font-smoothing: antialiased;
+    padding: 5vh 10vw;
+    color: #1D1D1F;
+    background-color: #F5F5F7;
+    text-rendering: optimizeLegibility;
+}
+
+h1 {
+    font-size: 4.5em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.6em;
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 26em;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #06c;
+    position: relative;
+}
+a:hover {
+    font-weight: bold;
+}
+
+blockquote {
+    font-size: 4em;
+}
+
+
+blockquote:before {
+    color: #1D1D1F;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    vertical-align: -0.4em;
+}
+
+blockquote:after {
+    color: #1D1D1F;
+    content: close-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+.name {
+    color: #06c;
+}
+
+@media only screen and (max-width : 600px) {
+    blockquote {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}
