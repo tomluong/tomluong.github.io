@@ -21,7 +21,8 @@
             text-decoration: none;
         }
 
-        .tech,.default-tech {
+        .tech,
+        .default-tech {
             font-size: 18px;
             padding: 12px;
             text-transform: uppercase;
@@ -49,9 +50,6 @@
         .filters .btn {
             text-transform: capitalize;
         }
-        h1 span {
-            font-
-        }
     </style>
 </head>
 
@@ -76,15 +74,15 @@
                 </svg></a>
         </div>
         <h1 class="mb-5">
-            Technologies and Experience<br/>
-            <span class="small text-hint text-capitalize text-muted">Over a decade of experience</span>    
+            Technologies and Experience<br />
+            <span class="small text-hint text-capitalize text-muted">Over a decade of experience</span>
         </h1>
-        
+
 
         <div class="btn-group filters mb-5" role="group" aria-label="Basic example">
             <button type="button" class="btn btn-success" data-filter-class="recent">Last six months</button>
             <button type="button" class="btn btn-primary" data-filter-class="two-jobs">Last Two Jobs</button>
-            <button type="button" class="btn btn-info">All time</button>
+            <button type="button" class="btn btn-info all-time">All time</button>
         </div>
 
         <div class="techs">
@@ -145,31 +143,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
         integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
         crossorigin="anonymous"></script>
-    <script>
-        var $techs = $(".techs");
-        $(".filters .btn").click((e) => {
-            var $this = $(e.target);
-
-            var filterClass = $this.attr("data-filter-class");
-            var filter = ".default-tech, ";
-
-            if (typeof filterClass !== "undefined") {
-                filter += "." + filterClass;
-            } else {
-                filter = "*" ;
-            }
-            $techs.isotope({
-                itemSelector: '.tech',
-                layoutMode: 'fitRows',
-                filter: filter
-            });
-        });
-        $techs.isotope({
-            itemSelector: '.tech',
-            layoutMode: 'fitRows',
-            filter: "*"
-        });
-    </script>
+    <script src="techs.js"></script>
 </body>
 
 </html>
