@@ -13,7 +13,8 @@ $(".filters .btn").click((e) => {
     $techs.isotope({
         itemSelector: '.tech',
         layoutMode: 'fitRows',
-        filter: filter
+        filter: filter,
+        transitionDuration: '0.8s'
     });
 
 

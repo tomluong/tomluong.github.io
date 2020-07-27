@@ -1,0 +1,44 @@
+body,
+        html {
+            font-family: 'Roboto', sans-serif;
+            margin-top: 20px;
+        }
+
+        a.btn {
+            text-decoration: none;
+        }
+
+        .tech,
+        .default-tech {
+            font-size: 18px;
+            padding: 12px;
+            text-transform: uppercase;
+            margin: 10px;
+            /* border: 3px solid #118ab2; */
+            color: #118ab2;
+            border-radius: 10px;
+            font-weight: 700;
+        }
+
+        .backend {
+            border: 3px solid #ef476f;
+            color: #ef476f;
+        }
+
+        .frontend {
+            border: 3px solid #073b4c;
+            color: #073b4c;
+        }
+
+        .filters {
+            display: block;
+        }
+
+        .filters .btn {
+            text-transform: capitalize;
+        }
+
+
+        blockquote {
+            font-size: 2em;
+        }
