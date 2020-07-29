@@ -9,15 +9,19 @@ body {
 }
 
 p {
-    line-height: 1.4;
+    line-height: 1.5;
     max-width: 500px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 a {
     text-decoration: none;
     color: #06c;
     position: relative;
+}
+
+a svg {
+    margin-left: 3px;
 }
 a:hover {
     font-weight: bold;
