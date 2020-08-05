@@ -8,6 +8,10 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+h1 {
+    max-width: 500px;
+}
+
 p {
     line-height: 1.5;
     max-width: 500px;
@@ -23,6 +27,7 @@ a {
 a svg {
     margin-left: 3px;
 }
+
 a:hover {
     font-weight: bold;
 }
