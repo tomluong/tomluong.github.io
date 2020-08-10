@@ -7,10 +7,6 @@ $("p").each(function (index) {
         html = html.replace(". ", ".&nbsp;&nbsp;");
     }
 
-    while (html.indexOf(", ") > -1) {
-        html = html.replace(", ", ",&nbsp;&nbsp;");
-    }
-
     $this.html(html);
 });
 
