@@ -229,7 +229,7 @@
     </div>
 
     <div class="footer">
-      <span class="float-right">Updated in September 2020</span>
+      <span class="float-right">Updated in <span id="current-date"></span></span>
       <span class="quote">Be tolerant with others and strict with yourself.</span> – Marcus Aurelius
     </div>
     <a class="btn btn-outline-primary btn-sm btn-block mt-4" href="TomLuongResume.pdf" target="_blank">Download
@@ -243,6 +243,13 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
     integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+  </script>
+  <script>
+  const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+  const now = new Date();
+  const currentMonth = monthNames[now.getMonth()];
+  var currentDate = document.getElementById('current-date');
+  currentDate.innerHTML = `${currentMonth} ${now.getYear() + 1900}`;
   </script>
 </body>
 
