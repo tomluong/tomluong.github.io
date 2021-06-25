@@ -1,58 +1,70 @@
-html,
-body {
-  font-family: 'Poppins', sans-serif;
-  color: #666;
-  font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+body,
+html {
+  margin: 50px 0;
+  font-family: "Dosis", sans-serif;
+  font-size: 400;
+  font-size: large;
+  background-color: rgb(252, 252, 252);
+}
+h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin-bottom: 20px;
+  font-weight: 700;
 }
 
-main {
-  width: 600px;
-  margin: auto;
+h4 {
+  text-transform: uppercase;
+  margin: 40px 0;
 }
 
-.user {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-
-  object-fit: cover;
+a,
+a:hover,
+a:visited {
+  color: orangered;
+  text-decoration: none;
 }
 
-.highlights {
+.left-side {
+  border-right: 2px solid #ccc;
+  padding-right: 40px;
+}
+
+.right-side {
+  padding-left: 40px;
+}
+
+.horizontal-line {
+  margin: 60px 0;
+  border: 1px solid #ccc;
+}
+.position-duration {
   float: right;
 }
 
-.explanation {
-  font-size: 0.8rem;
-  font-style: italic;
+#profile-pic-section {
+  margin-bottom: 100px;
 }
 
-a {
-  text-decoration: none;
-  color: #06c;
-  position: relative;
+#profile-pic-section img {
+  filter: grayscale(90%);
 }
 
+#skill-list li {
+  text-transform: capitalize;
+}
 
+.position-highlights {
+  color: rgb(102, 102, 102);
+  font-size: smaller;
+  text-transform: capitalize;
+}
 
-@media only screen and (max-width: 600px) {
-  body {
-    padding: 0 10px;
-  }
+#recent-projects-list {
+  list-style: none;
+  padding: 0;
+}
 
-  .highlights {
-    display: block;
-    float: none;
-  }
-
-  main {
-    width: auto;
-  }
-
+.horizon-spacer {
+  margin: 30px;
 }
