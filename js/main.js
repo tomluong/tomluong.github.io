@@ -1,0 +1,1 @@
+document.getElementById("seniority").innerText = new Date().getFullYear() - 2009;
