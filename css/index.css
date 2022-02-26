@@ -6,6 +6,7 @@ html {
   font-size: large;
   background-color: rgb(252, 252, 252);
 }
+
 h1 {
   text-transform: uppercase;
   letter-spacing: 0.3em;
@@ -13,7 +14,7 @@ h1 {
   font-weight: 700;
 }
 
-h4 {
+div.h4 {
   text-transform: uppercase;
   margin: 40px 0;
 }
@@ -26,7 +27,7 @@ a:visited {
 }
 
 .left-side {
-  border-right: 2px solid #ccc;
+  border-right: 1px solid #ccc;
   padding-right: 40px;
 }
 
@@ -38,12 +39,9 @@ a:visited {
   margin: 60px 0;
   border: 1px solid #ccc;
 }
+
 .position-duration {
   float: right;
-}
-
-#profile-pic-section {
-  margin-bottom: 100px;
 }
 
 #profile-pic-section img {
@@ -67,4 +65,8 @@ a:visited {
 
 .horizon-spacer {
   margin: 30px;
+}
+
+.position-company {
+  font-size: 1.3rem;
 }
