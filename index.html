@@ -32,7 +32,76 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col left-side">
+      <div class="col-md-4 left-side">
+        <div class="text-center" id="profile-pic-section">
+          <h1>Tom Luong</h1>
+          <figure class="figure">
+            <img src="https://tomluong.github.io/img/profile.jpg" class="figure-img img-fluid rounded d-none d-sm-block"
+              alt="tom luong profile picture" />
+            <figcaption class="figure-caption text-end">
+              <a href="https://www.github.com/tomluong/" target="_blank" aria-label="Open GitHub profile"><img
+                  alt="GitHub"
+                  src="https://img.shields.io/badge/GitHub-blue?style=for-the-badge&amp;logo=github" />&nbsp;</a>
+              <a href="https://www.linkedin.com/in/tomqluong/" target="_blank" aria-label="Open LinkedIn profile"><img
+                  alt="LinkedIn"
+                  src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&amp;logo=linkedin" />&nbsp;</a>
+              <a href="mailto:tomluong@live.com"><img alt="Email"
+                  src="https://img.shields.io/badge/Email-blue?style=for-the-badge&amp;logo=mail.ru" />&nbsp;</a>
+            </figcaption>
+          </figure>
+          <p>Resume is available upon request.</p>
+        </div>
+        <div class="horizontal-line"></div>
+        <h1>Some Projects</h1>
+        <ul id="recent-projects-list">
+          <li>
+            <strong>Secure File Transfer</strong>
+            <a href="#" class="expand" data-expand="Secure File Transfer" title="Expand"><i
+                class="bi bi-chevron-expand"></i></a>
+            <div expandable="Secure File Transfer">
+              Deliver confidential information from consumer's browser to bank's
+              backend systems
+              <ul>
+                <li>Data encrypted at rest and in transit</li>
+                <li>
+                  Customizable upload service to meet various backend needs
+                </li>
+              </ul>
+            </div>
+            <div class="horizon-spacer"></div>
+          </li>
+          <li>
+            <strong>Generic Filtering Engine</strong>
+            <a href="#" class="expand" data-expand="Generic Filtering Engine" title="Expand"><i
+                class="bi bi-chevron-expand"></i></a>
+            <div expandable="Generic Filtering Engine">
+              Show correct documents to users based on regulation rules at
+              run-time
+              <ul>
+                <li>Allowed banks to change logic quickly and efficiently</li>
+                <li>Increased product quality yet reduced support resources</li>
+              </ul>
+            </div>
+            <div class="horizon-spacer"></div>
+          </li>
+          <li>
+            <strong>AWS ETL Solution</strong>
+            <a href="#" class="expand" data-expand="AWS ETL Solution" title="Expand"><i
+                class="bi bi-chevron-expand"></i></a>
+            <div expandable="AWS ETL Solution">
+              Process thousands of press release XML files daily
+              <ul>
+                <li>
+                  Delivered a new AWS solution using lambda and PostgreDB just
+                  in weeks
+                </li>
+                <li>Completely scalable with minimum operation expenses</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-8 right-side">
         <h1>Brief Profile</h1>
         <p>
           Tom Luong is a problem solver, currently working for <a href="https://www.proofpoint.com/us">Proofpoint</a>, a
@@ -40,14 +109,16 @@
           Prior to Proofpoint, he held senior engineering positions in Technology, Financial, Education and Media
           companies.
         </p>
-        <p>
+        <a href="#" class="expand" data-expand="profile" title="Expand">Read more <i
+            class="bi bi-chevron-expand"></i></a>
+        <p expandable="profile">
           With more than 13 years of technology industry experience, he can unlock your company potential and advance
           your business. <a href="mailto:tomluong@live.com">Email him</a> to discuss potential work. When he is not
           writing
           software, he
           <a href="./relaxer.html" target="_blank">relaxes</a>.
         </p>
-        <p>
+        <p expandable="profile">
           Tom received his honour bachelor's degree from McMaster University, where he studied computer science and
           mathematics. He resides in Toronto with his wife, children and their dog.
         </p>
@@ -74,8 +145,9 @@
           <div class="col">
             <strong>HANDS-ON</strong>
             <ul>
-              <li><abbr title="Active Directory">AD</abbr> Synchronization</li>
-              <li><abbr title="Azure Active Directory">Azure AD</abbr> Enterprise Identity Service</li>
+              <li><abbr title="Active Directory" class="initialism">AD</abbr> Synchronization</li>
+              <li><abbr title="Azure Active Directory" class="initialism">Azure AD</abbr> Enterprise Identity Service
+              </li>
               <li>Production Support</li>
             </ul>
           </div>
@@ -90,7 +162,7 @@
           <div class="col">
             <strong>TECHNOLOGIES</strong>
             <ul>
-              <li>Java C# SQL</li>
+              <li>C++ Java C# SQL</li>
               <li>Powershell Bash</li>
             </ul>
           </div>
@@ -291,74 +363,7 @@
         </div>
       </div>
 
-      <div class="col-4 right-side">
-        <div class="text-center" id="profile-pic-section">
-          <figure class="figure">
-            <img src="https://tomluong.github.io/img/profile.jpg" class="figure-img img-fluid rounded"
-              alt="tom luong profile picture" />
-            <figcaption class="figure-caption text-end">
-              <a href="https://www.github.com/tomluong/" target="_blank" aria-label="Open GitHub profile"><img
-                  alt="GitHub"
-                  src="https://img.shields.io/badge/GitHub-blue?style=for-the-badge&amp;logo=github" />&nbsp;</a>
-              <a href="https://www.linkedin.com/in/tomqluong/" target="_blank" aria-label="Open LinkedIn profile"><img
-                  alt="LinkedIn"
-                  src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&amp;logo=linkedin" />&nbsp;</a>
-              <a href="mailto:tomluong@live.com"><img alt="Email"
-                  src="https://img.shields.io/badge/Email-blue?style=for-the-badge&amp;logo=mail.ru" />&nbsp;</a>
-            </figcaption>
-          </figure>
-          <p>Resume is available upon request.</p>
-        </div>
-        <div class="horizontal-line"></div>
-        <h1>Recent Projects</h1>
-        <ul id="recent-projects-list">
-          <li>
-            <strong>Secure File Transfer</strong>
-            <a href="#" class="expand" data-expand="Secure File Transfer" title="Expand"><i
-                class="bi bi-chevron-expand"></i></a>
-            <div expandable="Secure File Transfer">
-              Deliver confidential information from consumer's browser to bank's
-              backend systems
-              <ul>
-                <li>Data encrypted at rest and in transit</li>
-                <li>
-                  Customizable upload service to meet various backend needs
-                </li>
-              </ul>
-            </div>
-            <div class="horizon-spacer"></div>
-          </li>
-          <li>
-            <strong>Generic Filtering Engine</strong>
-            <a href="#" class="expand" data-expand="Generic Filtering Engine" title="Expand"><i
-                class="bi bi-chevron-expand"></i></a>
-            <div expandable="Generic Filtering Engine">
-              Show correct documents to users based on regulation rules at
-              run-time
-              <ul>
-                <li>Allowed banks to change logic quickly and efficiently</li>
-                <li>Increased product quality yet reduced support resources</li>
-              </ul>
-            </div>
-            <div class="horizon-spacer"></div>
-          </li>
-          <li>
-            <strong>AWS ETL Solution</strong>
-            <a href="#" class="expand" data-expand="AWS ETL Solution" title="Expand"><i
-                class="bi bi-chevron-expand"></i></a>
-            <div expandable="AWS ETL Solution">
-              Process thousands of press release XML files daily
-              <ul>
-                <li>
-                  Delivered a new AWS solution using lambda and PostgreDB just
-                  in weeks
-                </li>
-                <li>Completely scalable with minimum operation expenses</li>
-              </ul>
-            </div>
-          </li>
-        </ul>
-      </div>
+
     </div>
   </div>
 
