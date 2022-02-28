@@ -38,6 +38,17 @@ a:visited {
     border: none;
   }
 
+  .h4 {
+    font-size: calc(1rem + .3vw);
+  }
+
+  h1 {
+    font-size: calc(1.1rem + 1.5vw);
+  }
+
+  .position-company {
+    display: block;
+  }
 }
 
 
@@ -75,8 +86,4 @@ a:visited {
 
 .horizon-spacer {
   margin: 30px;
-}
-
-.position-company {
-  font-size: 1.3rem;
 }
